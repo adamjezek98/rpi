@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+<head>
+
+    <meta charset="UTF-8" />
+    <title><?= $title ?></title>
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+<header>
+    <h1><?= $head ?></h1>
+</header>
+
+
+
+<article>
+<?= $article ?>
+    <table border="0" align="center" >
+        <tr>
+            <td>Poslední ohlášení RPi</td><td><?= $last_date ?> </td>
+        </tr>
+        <tr>
+            <td>Teplota CPU</td><td><?= $temps["cpu"] ?></td>
+        </tr>
+        <tr>
+            <td>Teplota zdroje</td><td><?= $temps["power_source"] ?></td>
+        </tr>
+        <tr>
+            <td>Chlazení</td><td>Zapnuto</td>
+        </tr>
+        <tr>
+            <td>Pokojová teplota</td><td><?=$temps["room"] ?></td>
+        </tr>
+        <tr>
+            <td>Venkovní teplota</td><td><?=$temps["outside"] ?></td>
+        </tr>
+    </table>
+</article>
+
+<footer>
+    <p>paticka</p>
+</footer>
+</body>
+</html>
