@@ -1,0 +1,34 @@
+h1 {
+    color: blue;
+    text-align: right;
+    margin-right: 50px;
+}
+
+body {
+height: 100%;
+
+
+}
+
+.clanek {
+
+}
+
+article {
+   text-align: center;
+
+}
+table {
+    font-size: 1.5em;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+}
